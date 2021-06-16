@@ -1,0 +1,40 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 6rem;
+}
+
+input {
+  color: gray;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+
+}
+
+.card {
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  background-color: grey;
+}
+
+.card p {
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card img {
+  width: 100%;
+  max-height: 18rem;
+}
